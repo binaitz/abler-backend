@@ -1,10 +1,10 @@
-package io.github.binaitz.alberbackend;
+package io.github.binaitz.alberapi;
 
 import io.github.binaitz.alberapi.user.domain.entity.User;
 import io.github.binaitz.alberapi.user.domain.repository.UserRepository;
 import io.github.binaitz.alberapi.user.exception.UserAlreadyExistsException;
 import io.github.binaitz.alberapi.user.service.SignUpService;
-import io.github.binaitz.alberapi.user.web.SignUpRequest;
+import io.github.binaitz.alberapi.user.web.dto.SignUpRequest;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
