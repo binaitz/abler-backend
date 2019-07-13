@@ -1,11 +1,9 @@
 package io.github.binaitz.alberapi.user.service.impl;
 
-import io.github.binaitz.alberapi.user.domain.entity.User;
 import io.github.binaitz.alberapi.user.domain.repository.UserRepository;
 import io.github.binaitz.alberapi.user.service.SignInService;
-import io.github.binaitz.alberapi.user.web.OAuth2TokenResponse;
-import io.github.binaitz.alberapi.user.web.SignInRequest;
-import io.github.binaitz.alberapi.user.web.SignUpRequest;
+import io.github.binaitz.alberapi.user.web.controller.OAuth2TokenResponse;
+import io.github.binaitz.alberapi.user.web.dto.SignInRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.client.support.BasicAuthenticationInterceptor;
 import org.springframework.stereotype.Service;

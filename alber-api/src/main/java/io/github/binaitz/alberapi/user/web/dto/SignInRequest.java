@@ -1,4 +1,4 @@
-package io.github.binaitz.alberapi.user.web;
+package io.github.binaitz.alberapi.user.web.dto;
 
 import lombok.Getter;
 

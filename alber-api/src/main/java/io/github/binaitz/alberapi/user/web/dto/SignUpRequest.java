@@ -1,4 +1,4 @@
-package io.github.binaitz.alberapi.user.web;
+package io.github.binaitz.alberapi.user.web.dto;
 
 import io.github.binaitz.alberapi.user.domain.entity.User;
 import lombok.Builder;

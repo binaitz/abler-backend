@@ -4,7 +4,7 @@ import io.github.binaitz.alberapi.user.domain.entity.User;
 import io.github.binaitz.alberapi.user.domain.repository.UserRepository;
 import io.github.binaitz.alberapi.user.exception.UserAlreadyExistsException;
 import io.github.binaitz.alberapi.user.service.SignUpService;
-import io.github.binaitz.alberapi.user.web.SignUpRequest;
+import io.github.binaitz.alberapi.user.web.dto.SignUpRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

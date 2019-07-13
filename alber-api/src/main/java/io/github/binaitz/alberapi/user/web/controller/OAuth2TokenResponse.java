@@ -1,4 +1,4 @@
-package io.github.binaitz.alberapi.user.web;
+package io.github.binaitz.alberapi.user.web.controller;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;

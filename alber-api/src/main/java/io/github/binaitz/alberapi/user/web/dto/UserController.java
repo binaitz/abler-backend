@@ -1,7 +1,9 @@
-package io.github.binaitz.alberapi.user.web;
+package io.github.binaitz.alberapi.user.web.dto;
 
 import io.github.binaitz.alberapi.user.service.SignInService;
 import io.github.binaitz.alberapi.user.service.SignUpService;
+import io.github.binaitz.alberapi.user.web.dto.SignInRequest;
+import io.github.binaitz.alberapi.user.web.dto.SignUpRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
