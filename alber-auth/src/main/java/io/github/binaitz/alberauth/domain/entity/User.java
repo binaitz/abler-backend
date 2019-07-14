@@ -1,9 +1,6 @@
-package io.github.binaitz.alberapi.user.domain.entity;
+package io.github.binaitz.alberauth.domain.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.CreatedDate;
 
 import javax.persistence.*;
@@ -11,9 +8,6 @@ import java.time.LocalDateTime;
 
 @Entity
 @Getter
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
 public class User {
 
     @Id
