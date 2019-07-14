@@ -1,10 +1,7 @@
 package io.github.binaitz.alberapi.boasting.web.dto;
 
 import io.github.binaitz.alberapi.boasting.domain.entity.Boasting;
-import lombok.AccessLevel;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,6 +9,7 @@ import java.util.List;
 @Getter
 @Builder(access = AccessLevel.PROTECTED)
 @NoArgsConstructor
+@AllArgsConstructor
 public class GetBoastingResponse {
 
     private List<BoastingDto> boastings;
@@ -33,7 +31,8 @@ public class GetBoastingResponse {
     @Getter
     @Builder
     @NoArgsConstructor
-    protected class BoastingDto {
+    @AllArgsConstructor
+    protected static class BoastingDto {
         private String title;
         private String userName;
         private int numberOfLikes;
