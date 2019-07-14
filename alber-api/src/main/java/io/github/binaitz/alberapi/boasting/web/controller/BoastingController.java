@@ -30,7 +30,7 @@ public class BoastingController {
     }
 
     @PostMapping("/boastings")
-    @PreAuthorize("hasRole('ROLE_USER')")
+    @PreAuthorize("hasRole('USER')")
     public void addBoasting(@UserId Long userId, @RequestBody AddBoastingRequest request) {
         addBoastingService.addBoasting(request, userId);
     }
