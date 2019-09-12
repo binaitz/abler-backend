@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.github.binaitz</groupId>
-	<artifactId>alber-auth</artifactId>
+	<artifactId>abler-auth</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>alber-auth</name>
+	<name>abler-auth</name>
 	<description>Sharing hobby platform, ABLER</description>
 
 	<properties>

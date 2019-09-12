@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.github.binaitz</groupId>
-	<artifactId>alber-api</artifactId>
+	<artifactId>abler-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>alber-api</name>
+	<name>abler-api</name>
 	<description>Sharing hobby platform, ABLER</description>
 
 	<properties>
