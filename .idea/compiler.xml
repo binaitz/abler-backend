@@ -6,17 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="alber-auth" />
-        <module name="alber-api" />
-        <module name="alber-backend" />
+        <module name="abler-backend" />
+        <module name="abler-auth" />
+        <module name="abler-api" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="abler-config" target="1.8" />
+      <module name="abler-discovery" target="1.8" />
+      <module name="abler-gateway" target="1.8" />
+      <module name="alber-post-service" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="alber-api" options="-parameters" />
-      <module name="alber-auth" options="-parameters" />
-      <module name="alber-backend" options="-parameters" />
+      <module name="abler-api" options="-parameters" />
+      <module name="abler-auth" options="-parameters" />
+      <module name="abler-backend" options="-parameters" />
     </option>
   </component>
 </project>

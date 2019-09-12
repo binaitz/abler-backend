@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/alber-auth/pom.xml" />
         <option value="$PROJECT_DIR$/alber-api/pom.xml" />
+        <option value="$PROJECT_DIR$/abler-api/pom.xml" />
+        <option value="$PROJECT_DIR$/abler-auth/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>

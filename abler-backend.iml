@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/alber-api/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/alber-auth/src/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/alber-auth/.mvn/wrapper" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/alber-api/.mvn/wrapper" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/alber-api/src/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/alber-auth/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.mvn/wrapper" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
