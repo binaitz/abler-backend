@@ -1,4 +1,4 @@
-package io.github.binaitz.ablerapi.annotations;
+package io.github.binaitz.ablerapi.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -1,6 +1,6 @@
 package io.github.binaitz.ablerapi.config;
 
-import io.github.binaitz.ablerapi.annotations.UserId;
+import io.github.binaitz.ablerapi.annotation.UserId;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.MethodParameter;
 import org.springframework.security.core.context.SecurityContextHolder;

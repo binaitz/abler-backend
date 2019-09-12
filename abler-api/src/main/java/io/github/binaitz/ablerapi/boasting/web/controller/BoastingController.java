@@ -1,6 +1,6 @@
 package io.github.binaitz.ablerapi.boasting.web.controller;
 
-import io.github.binaitz.ablerapi.annotations.UserId;
+import io.github.binaitz.ablerapi.annotation.UserId;
 import io.github.binaitz.ablerapi.boasting.domain.entity.Boasting;
 import io.github.binaitz.ablerapi.boasting.service.AddBoastingService;
 import io.github.binaitz.ablerapi.boasting.service.GetBoastingService;
